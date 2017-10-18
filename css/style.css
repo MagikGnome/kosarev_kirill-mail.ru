@@ -8,3 +8,11 @@ li{
 body{
   font-family:'PT Sans',Arial,Tahoma,sans-serif;
 }
+.rhombus:before{
+  content:"";
+  display:block;
+  background-color:red;
+  width:30px ;
+  height: 30px;
+  transform:rotate(45deg);
+}
