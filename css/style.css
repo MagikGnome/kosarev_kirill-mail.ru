@@ -1,11 +1,10 @@
-h1{
-
-  text-align: center;
+li{
+  list-style-type: none;
 }
-/*p{
-  position:absolute;
-  left:10%;
+@font-face{
+  font-family:PT Sans;
+  src:url(fonts/PT_Sans-Web-Bold.ttf;fonts/PT_Sans-Web-Regular.ttf);
 }
-h2{
-  text-align:center;
-}*/
+body{
+  font-family:'PT Sans',Arial,Tahoma,sans-serif;
+}

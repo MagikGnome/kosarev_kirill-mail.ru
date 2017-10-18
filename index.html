@@ -8,41 +8,132 @@
     <title>Document</title>
 </head>
 <body>
-    <center>
-        <h1>Barbershop<br>
-        Borodinski
-        </h1>
-    </center>
-    <p>
-         <h2>БЫСТРО
-         </h2>
-    </p>
-    <p>
-        <h2>КРУТО
-        </h2>
-    </p>
-    <p>
-        <h2>ДОРОГО
-        </h2>
-    </p>
-    <div>
-        <h2>НОВОСТИ</h2>
-        <p></p>
-        <p></p>
-        <a href=""></a>
-    </div>
-    <div>
-        <h2>Фотогалерея</h2>
-        <div>
+    <header class="head">
+        <nav>
             <ul>
-                <li></li>
-                <li></li>
+                <li><a href="#">Информация</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Прайс-лист</a></li>
+                <li><a href="#">Магазин</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Войти</a></li>
             </ul>
+        </nav>
+        <div class="logo">
+            <figure class="logo"></figure>
+        </div>
+    </header>
+    <div class="features">
+        <div class="feature">
+            <h2>Быстро</h2>
+            <div class="rhombus"></div>
+            <p>
+                Мы делаем свою работу быстро! Два часа
+                пролетят незаметно и вы - счастливый
+                обладатель стильной стрижки-минутки!
+            </p>
         </div>
     </div>
-    <div>
-        <h2></h2>
-        <p></p>
+    <div class="feature">
+        <h2>Круто</h2>
+        <div class="rhombus"></div>
+        <p>
+            Забудьте как вы стриглись раньше.
+            Мы сделаем из вас звезду футбола или кино!
+            Во всяком случае внешне.
+        </p>
     </div>
+    <div class="feature">
+        <h2>Дорого</h2>
+        <div class="rhombus"></div>
+        <p>
+            Наши мастера— профессионалы своего дела и
+            не могут стоить дешево. К тому же, разве цена
+            не дает определенный статус?
+        </p>
+    </div>
+    <main class="main">
+        <div class="wrapper"></div>
+        <article class="news">
+            <h2>Новости</h2>
+                <p>
+                    Нам наконец завезли ягермайстер! Теперь вы
+                    можете пропустить стаканчик во время стрижки
+                    <span>
+                        11 января
+                    </span>
+                </p>
+                <p>
+                    В нашей команде пополнение, Борис «БРИТВА» Стригунец,
+                    обладатель множества титулов и наград пополнил наши
+                    стройные ряды
+                    <span>
+                        18 января
+                    </span>
+                </p>
+             <a href="#" class="all_news">Все новости</a>
+        </article>
+        <article class="photo">
+            <h2>Фотогалерея</h2>
+            <figure>
+                <img src="">
+            </figure>
+            <input type="button" class="toggle" value="НАЗАД"> 
+            <input type="button" class="toggle" value="ВПЕРЕД">
+        </article>    
+        <div class="contact_info">
+            <h2>Контактная информация</h2>
+            <p>
+                Барбер«Бородинский»<br>
+                Адрес: Г. Санкт-Петербург, УЛ. Б. Конюшенная, Д. 19/8<br>
+                Телефон: +7 (495) 666-02-66
+            </p>
+            <p>
+                Время работы: <br>
+                пн—пт: с 10:00 до 22:00<br>
+                сб—вс: с 10:00 до 19:00<br>
+            </p>
+            <a href="#" value="Как проехать"></a> 
+            <a href="#" value="Обратная связь"></a>
+        </div>
+        <form class="recording">
+            <h2>Записаться</h2>
+            <div>
+                <label for="date">Дата</label>
+                <input type="text" id="date" placeholder="08.10.2017">
+            </div>
+            <div>
+                <label for="time">Время</label>
+                <input type="text" id="time" placeholder="10:00">
+            </div>
+            <div>
+                <label for="name">Имя</label>
+                <input type="text" id="name" placeholder="Борода">
+            </div>
+            <div>
+                <label for="phone">Номер телефона</label>
+                <input type="text" id="phone" placeholder="+7 123 456-78-90">
+            </div>
+            <button type="submit">Отправить</button>
+        </form>    
+    </main>
+    <footer class="footer">
+        <div class="contacts">
+            Барбер«Бородинский»<br>
+            Адрес: Г. Санкт-Петербург, УЛ. Б. Конюшенная, Д. 19/8<br>
+            <a href="#">Как нас найти?</a><br>
+            Телефон: +7 (495) 666-02-66
+        </div>
+        <div>
+            Давайте дружить!
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </div>
+        <div>
+            Разработано:
+            <a href="#">htmlacademy</a>
+        </div>
+    </footer>
 </body>
 </html>
