@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <header class="head">
+    <header class="header">
         <nav>
             <ul>
                 <li><a href="#">Информация</a></li>
@@ -16,46 +17,49 @@
                 <li><a href="#">Прайс-лист</a></li>
                 <li><a href="#">Магазин</a></li>
                 <li><a href="#">Контакты</a></li>
-                <li><a href="#">Войти</a></li>
+                <li class="login">
+                    <img src="/img/login.png" class="img_login">                    
+                    <a href="#" style="padding-left:10px; ">Вход</a>
+                </li>
             </ul>
         </nav>
-        <div class="logo">
-            <figure class="logo"></figure>
-        </div>
     </header>
+<div class="wrapper">   
+    <main class="main"> 
+    <div class="logo">
+            <figure class="logo_img"><img src="/img/index-logo.png"></figure>
+    </div>
     <div class="features">
         <div class="feature">
-            <h2>Быстро</h2>
-            <p class="rhombus">
+            <h2 class="rhombus">Быстро</h2>
+            <p>
                 Мы делаем свою работу быстро! Два часа
                 пролетят незаметно и вы - счастливый
                 обладатель стильной стрижки-минутки!
             </p>
         </div>
         <div class="feature">
-            <h2>Круто</h2>
-            <p class="rhombus">
+            <h2 class="rhombus">Круто</h2>
+            <p>
                 Забудьте как вы стриглись раньше.
                 Мы сделаем из вас звезду футбола или кино!
                 Во всяком случае внешне.
             </p>
         </div>
         <div class="feature">
-            <h2>Дорого</h2>
-            <p  class="rhombus">
+            <h2 class="rhombus">Дорого</h2>
+            <p>
                 Наши мастера— профессионалы своего дела и
                 не могут стоить дешево. К тому же, разве цена
                 не дает определенный статус?
             </p>
         </div>
     </div>
-    <main class="main">
-        <div class="wrapper"></div>
         <article class="news">
             <h2>Новости</h2>
                 <p>
                     Нам наконец завезли ягермайстер! Теперь вы
-                    можете пропустить стаканчик во время стрижки
+                    можете пропустить стаканчик во время стрижки<br>
                     <span>
                         11 января
                     </span>
@@ -63,7 +67,7 @@
                 <p>
                     В нашей команде пополнение, Борис «БРИТВА» Стригунец,
                     обладатель множества титулов и наград пополнил наши
-                    стройные ряды
+                    стройные ряды<br>
                     <span>
                         18 января
                     </span>
@@ -112,8 +116,9 @@
                 <input type="text" id="phone" placeholder="+7 123 456-78-90">
             </div>
             <button type="submit">Отправить</button>
-        </form>    
+        </form>   
     </main>
+</div>
     <footer class="footer">
         <div class="contacts">
             Барбер«Бородинский»<br>
