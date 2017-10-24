@@ -19,14 +19,14 @@ li a:active{
  color:#524D4D;
 }
 nav{
-  padding-top:21px;
+  padding-top:22px;
 }
 ul li.login{
   padding-left:324px;
   text-align:right;
 }
 header{
-  min-width:900px;
+  width:100%;
   min-height: 72px;
   background-color: black;
 }
@@ -34,8 +34,9 @@ body{
   color:white;
   text-transform: uppercase;
   font-family:'PT Sans Narrow',Arial,Tahoma,sans-serif;
-  font-weight: bold;  
+  font-weight:bold;
   background-color:#070707;
+  min-width: 1200px;
 }
 .rhombus:after{
   content:"";
@@ -52,29 +53,200 @@ body{
   text-align:center;
 }
 .wrapper{
-  margin-left:-3px;
-  background-image: url(/img/tint.jpg);
+  background-color: #070707;
 }
 .features{
-  position:relative;
-  display:inline-block;
-  margin:79px auto auto auto ;
-  text-align:center;
-  color:white;
+  min-width: 1100px;
+  width: 100%;
+  margin:0 auto;
+  min-height: 200px; 
+  text-align: center;
 }
 .feature{
+  padding:0 34px 0 34px;
   font-size:14px;
-  line-height: 37px ;
-  display:block;
-  text-align:center;
-  float:left;
-  min-height:157px;
-  margin-left:60px;
-  width:291px;
+  line-height:40px;
+  display:inline-block;
+  margin:68px auto 40px auto;
+  min-height:200px;
+  width:270px;
+}
+.feature h2{
+  padding-bottom: 30px;
+  font-size:30px;
 }
 .feature p{
-  line-height: 25px ;
+  line-height:25px;
 } 
-.feature:last-child{
+.main{
+  width:100%;
+  text-align: center;
+  background-position-y: -1px;
+  background-image: url(/img/Background.jpg);  
+  background-repeat: no-repeat;
+}
+.container{
+  clear:both;
+  color:black;
+  margin:0 auto 36px auto;
+  background-color: white;
+  min-height: 420px; 
+  width: 940px;
+}
+.toggle{
+  font-family: 'PT Sans Narrow',Arial,Tahoma,sans-serif;
+  background-color: black;
+  width: 140px;
+  height: 44px;
+  font-size:14px;
+  font-weight: bold;
+  border: none ;
+  color:#fff;
+  margin:0 16px 0 0;
+}
+article{
+  display:block;
+  text-align: left;
+  padding:55px 0 0 80px;
+}
+.news{
+  width:38.25%;
+  text-align:left;
+  float: left;
+}
+.photo{
+  padding-left:90px;
+  width:39.25%;
+  float:left;
+  text-align:left;
+  min-width: 300px;
+}
+article h2{
+  font-size:30px;
+}
+article p{
+  padding:0 0 34px 0;
+  line-height:24px;
+}
+span{
+  text-transform: none;
+}
+.photo_img{
+  border:none;
+  width:300px;
+  height: 178px;
+  background-color:white;
+  margin:20px 0 38px 0;
+}
+.contact_info{
+  display:block;
+  text-align: left;
+  padding:50px 0 0 80px;
+  width:38.25%;
+  text-align:left;
+  float: left;
+}
+.recording{
+  display:block;
+  text-align: left;
+  padding:50px 0 0 90px;
+  width:35.25%;
+  float:left;
+  text-align:left;
+  min-width: 300px;
+}
+.container a{
+  display:inline-block;
+  text-decoration:none;
+  background-color: black;
+  width:140px;
+  text-align: center;
+  padding:13px 0 13px 0;
+  font-size:14px;
+  font-weight: bold;
+  border: none ;
+  color:#fff;
+  margin:0 16px 0 0;
+
+}
+button{
+  font-family: 'PT Sans Narrow',Arial,Tahoma, sans-serif;
+  display:block;
+  text-transform: uppercase;
+  background-color: black;
+  width:300px;
+  text-align: center;
+  padding:13px 0 13px 0;
+  font-size:14px;
+  font-weight: bold;
+  border: none ;
+  color:#fff;
+  margin:0 16px 0 0;
+}
+.info{
+  font-size:14px;
+  width: 121px;
+  height: 39px;
+  font-weight: bold;
+  padding: 0 0 0 15px;
+  border:2px solid black;
+  margin:15px 20px 20px 0;
+}
+.infos{
+  display:inline-block;
+}
+.container:last-child{
+  min-height:435px;
+}
+.container:last-child p{
+  padding:0 0 34px 0;
+  line-height:24px;
+}
+footer{
+  text-align: center;
+  min-height:193px;
+  background-color: #252525;
+
+}
+.footer{
+  width: 940px;
+  font-size:14px;
+  color:white;
+  clear:both;
+  margin:0 auto;
+}
+.contacts{
+  display:block;
+  text-align: left;
+  float:left;
+  line-height: 24px;
+  margin:65px 100px 0 0;
+}
+.contacts a{
+  color:white;
+}
+.developed{
+  margin:65px 0px 0 0;
+  display:block;
   float:right;
+}
+.social{
+  display:block;
+  float:left;
+  margin:65px 0 0 0;
+}
+.developed a{
+  font-family: 'PT Sans Narrow',Arial,Tahoma, sans-serif;
+  display:block;
+  text-transform: uppercase;
+  background-color: black;
+  width:140px;
+  text-align: center;
+  padding:13px 0 13px 0;
+  font-size:14px;
+  font-weight: bold;
+  border: none ;
+  margin:24px 0 0 0;
+  color:#fff;
+  text-decoration:none;
 }

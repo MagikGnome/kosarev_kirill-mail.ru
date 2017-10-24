@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -55,6 +55,7 @@
             </p>
         </div>
     </div>
+    <div class="container">
         <article class="news">
             <h2>Новости</h2>
                 <p>
@@ -77,11 +78,13 @@
         <article class="photo">
             <h2>Фотогалерея</h2>
             <figure>
-                <img src="">
+                <img src="" class="photo_img">
             </figure>
             <input type="button" class="toggle" value="НАЗАД"> 
             <input type="button" class="toggle" value="ВПЕРЕД">
-        </article>    
+        </article>  
+        </div>  
+        <div class="container">
         <div class="contact_info">
             <h2>Контактная информация</h2>
             <p>
@@ -94,47 +97,54 @@
                 пн—пт: с 10:00 до 22:00<br>
                 сб—вс: с 10:00 до 19:00<br>
             </p>
-            <a href="#" value="Как проехать"></a> 
-            <a href="#" value="Обратная связь"></a>
+            <a href="#">Как проехать</a> 
+            <a href="#">Обратная связь</a>
         </div>
         <form class="recording">
             <h2>Записаться</h2>
-            <div>
-                <label for="date">Дата</label>
-                <input type="text" id="date" placeholder="08.10.2017">
+            <p>
+                Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони
+            </p>
+            <div class="infos">
+                <label for="date">Дата</label><br>
+                <input class="info" type="text" id="date" placeholder="08.10.2017">
             </div>
-            <div>
-                <label for="time">Время</label>
-                <input type="text" id="time" placeholder="10:00">
+            <div class="infos">
+                <label for="time">Время</label><br>
+                <input class="info" type="text" id="time" placeholder="10:00">
             </div>
-            <div>
-                <label for="name">Имя</label>
-                <input type="text" id="name" placeholder="Борода">
+            <div class="infos">
+                <label for="name">Ваше имя</label><br>
+                <input class="info" type="text" id="name" placeholder="Борода">
             </div>
-            <div>
-                <label for="phone">Номер телефона</label>
-                <input type="text" id="phone" placeholder="+7 123 456-78-90">
+            <div class="infos">
+                <label for="phone">Телефон</label><br>
+                <input class="info" type="text" id="phone" placeholder="+7 123 456-78-90">
             </div>
             <button type="submit">Отправить</button>
-        </form>   
+        </form> 
+        </div>
     </main>
 </div>
-    <footer class="footer">
+    <footer>
+        <div class="footer">
         <div class="contacts">
-            Барбер«Бородинский»<br>
+            <p>Барбер«Бородинский»<br>
             Адрес: Г. Санкт-Петербург, УЛ. Б. Конюшенная, Д. 19/8<br>
             <a href="#">Как нас найти?</a><br>
             Телефон: +7 (495) 666-02-66
+            </p>
         </div>
-        <div>
-            Давайте дружить!
+        <div class="social">
+            <p>Давайте дружить!</p>
             <a href="#"></a>
             <a href="#"></a>
             <a href="#"></a>
         </div>
-        <div>
-            Разработано:
+        <div class="developed">
+            <p>Разработано:</p>
             <a href="#">htmlacademy</a>
+        </div>
         </div>
     </footer>
 </body>
