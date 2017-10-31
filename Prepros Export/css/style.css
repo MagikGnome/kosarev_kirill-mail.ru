@@ -112,7 +112,6 @@ body{
   background-color: white;
   min-height: 420px; 
   width: 940px;
-  background-image: url("/img/background_shop.png");
 }
 .toggle{
   font-family: 'PT Sans Narrow',Arial,Tahoma,sans-serif;
