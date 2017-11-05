@@ -98,8 +98,7 @@ body{
   display:table;
   clear:both;
 }
-.main{
-  
+main{
   background-position-y: -35px;
   background-position-x: -330px;
   background-image: url(/img/Background.jpg);  
