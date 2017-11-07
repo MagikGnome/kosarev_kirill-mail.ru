@@ -194,7 +194,7 @@ footer{
     display:flex;
     justify-content: center;
     min-height:189px;
-    background-color: #252525;
+    background-image: url("/img/footer_shop.png");
   }
   .footer{
     font-size:14px;
