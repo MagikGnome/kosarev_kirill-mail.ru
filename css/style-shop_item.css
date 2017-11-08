@@ -1,0 +1,210 @@
+*{
+    padding:0;
+    margin:0; 
+}
+li{
+    list-style-type: none;
+}
+header ul{
+    font-size:0;
+    text-align:center;
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    padding:22px 0 0 0;
+    align-items: ;
+}
+header ul li{
+  font-size:16px;
+  padding:0px 0px 19px 0;
+  margin:0 20px 0 0;
+  border-bottom: 3px solid black;
+}
+header ul li:hover{
+  border-bottom-color: white;
+}
+header li a{
+  text-decoration:none;
+  color: #fff;
+}
+ul li.login{
+    display:flex;
+    margin-left:290px;
+    text-align:right;
+}
+.img_login{
+  padding:0 15px 0 0;
+}
+header{
+  width:100%;
+  min-height: 72px;
+  background-color: black;
+}
+body{
+    color:black;
+    text-transform: uppercase;
+    font-family:'PT Sans Narrow',Arial,Tahoma,sans-serif;
+    font-weight:bold;
+    min-width: 1200px;
+}
+.title{
+  margin:50px 0 0 0;
+  font-size:15px;
+}
+.title div{
+  margin:0 0 20px 0;
+}
+main li a{
+  text-decoration: none;
+  color: #000;
+}
+main li {
+    margin:0 10px 0 0;
+}
+main ul {
+    display:flex;
+    flex-flow: row wrap;
+  }
+main{ 
+  padding: 0 0 46px 0;
+  display: flex;
+  justify-content: center;
+  background-image: url(/img/background_shop.png);
+}
+.crumbs .back:after{
+    content:"";
+    display:inline-block;
+    width:8px;
+    height:8px;
+    background-color: black;
+    margin:0 10px 0px 16px;
+    transform:rotate(45deg);
+  }
+.last a{
+  color:#aba9a7;
+}
+.photos{
+  padding:0 0px 0 0;
+  max-width: 460px;
+}
+.mini_photos{
+  display: flex;
+  margin:17px 0 0 0;
+}
+.mini_photos div{
+  margin-right:20px;
+}
+.main{
+  margin:57px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+.info{
+  font-size: 14px;
+  margin:0px 0 0 90px;
+  max-width:390px;
+  display: flex;
+  flex-direction: column;
+
+}
+.content li:before{
+  content:"";
+  display:inline-block;
+  width:8px;
+  height:8px;
+  background-color: black;
+  margin:0 10px 0px 0px;
+  transform:rotate(45deg);
+}
+span{
+  display: inline-block;
+}
+.article{
+  margin:22px 0 32px 176px;
+  color:#aeaeae;
+}
+.description{
+  line-height: 1.75;
+}
+.buy{
+  margin:36px 0 0 0;
+}
+.crumbs{
+  font-size: 14px;
+}
+.price{
+    display:flex;
+    width:187px;
+    height:43px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.price label{
+    padding:12px 0 0 2px;
+    background-color:#e5e5e5;
+    width:109px;
+}
+.buy button{
+  font-family: 'PT Sans Narrow',Arial,Tahoma,sans-serif;
+  background-color: black;
+  width: 78px;
+  font-size:14px;
+  font-weight: bold;
+  border: none ;
+  color:#fff;
+  padding:0 20px 0 -3px;
+  text-transform: uppercase;
+}
+.content{
+  margin:61px 0 0 0;
+  max-width: 250px;
+}
+.content h2{
+  font-size: 24px;
+}
+.content ul{
+  line-height: 1.75;
+  margin:27px 0 0 0;
+}footer{ 
+  display:flex;
+  justify-content: center;
+  min-height:189px;
+  background-image: url("/img/footer_shop.png");
+}
+.footer{
+  font-size:14px;
+  color:white;
+  margin:56px auto;
+  display: flex;
+  justify-content: center;
+}
+.contacts{
+  line-height: 24px;
+  margin:0px 110px 0 135px;
+}
+.contacts a{
+  color:white;
+}
+.developed{
+    text-align: center;
+  margin:3px 0px 0 0px;
+}
+.social{
+  text-align: center;
+  margin:2px 280px 0 0px;
+}
+.developed a{
+  font-family: 'PT Sans Narrow',Arial,Tahoma, sans-serif;
+  display:block;
+  text-transform: uppercase;
+  background-color: black;
+  width:140px;
+  text-align: center;
+  padding:13px 0 13px 0;
+  font-size:14px;
+  font-weight: bold;
+  border: none ;
+  margin:17px 1px 0 0;
+  color:#fff;
+  text-decoration:none;
+}

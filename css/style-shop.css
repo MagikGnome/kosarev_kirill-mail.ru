@@ -55,8 +55,6 @@ body{
     font-weight:bold;
     background-color:white;
     min-width: 1200px;
-    display:flex;
-    flex-direction: column;
 }
 .title{
     margin:50px 0 0 12.2%;
@@ -72,15 +70,6 @@ main li a{
   main li {
       margin:0 10px 0 0;
   }
-main .title l{
-    content:"";
-    display:block;
-    background-color:#000;
-    width:7px ;
-    height:7px;
-    transform:rotate(45deg);
-}
-
 main ul {
       display:flex;
       flex-flow: row wrap;
