@@ -101,7 +101,7 @@ body{
 main{
   background-position-y: -35px;
   background-position-x: -330px;
-  background-image: url(/img/Background.jpg);  
+  background-image: url(img/Background.jpg);  
   background-repeat: no-repeat;
 }
 .container{
