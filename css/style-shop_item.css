@@ -68,7 +68,7 @@ main{
   padding: 0 0 46px 0;
   display: flex;
   justify-content: center;
-  background-image: url(/img/background_shop.png);
+  background-image: url(/kosarev_kirill-mail.ru/img/background_shop.png);
 }
 .crumbs .back:after{
     content:"";
@@ -168,7 +168,7 @@ span{
   display:flex;
   justify-content: center;
   min-height:189px;
-  background-image: url("/img/footer_shop.png");
+  background-image: url("/kosarev_kirill-mail.ru/img/footer_shop.png");
 }
 .footer{
   font-size:14px;
