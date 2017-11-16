@@ -127,7 +127,7 @@ ul button{
     margin:0px 0 18px 0;
 }
 .radio label{
-    margin:0 24px 0 24px;
+    margin:0 34px 0 0px;
 }
 .price{
     display:flex;
@@ -240,4 +240,44 @@ footer{
   }
   .crumbs{
       font-size: 13px;
+  }
+  .checkbox input{
+      display: none;
+  }
+  .checkbox label{
+    padding-left:30px;
+    position: relative ;
+  }
+  .checkbox label:before{
+    content:"";
+    position: absolute;
+    left:0;
+    width:20px;
+    height:20px;
+    background-image: url("/img/checkbox.png");
+    background-repeat: no-repeat;
+  }
+  .checkbox input:checked + label:before{ 
+    background-image: url("/img/checkbox_checked.png");
+    background-repeat: no-repeat;
+  }
+  .radio input{
+      display: none;
+  }
+  .radio label{
+    padding-left:30px;
+    position: relative ;
+  }
+  .radio label:before{
+    content:"";
+    position: absolute;
+    left:0;
+    width:20px;
+    height:20px;
+    background-image: url("/img/radio.png");
+    background-repeat: no-repeat;
+  }
+  .radio input:checked + label:before{ 
+    background-image: url("/img/radio_checked.png");
+    background-repeat: no-repeat;
   }

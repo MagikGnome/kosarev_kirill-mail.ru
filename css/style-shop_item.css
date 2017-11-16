@@ -12,7 +12,6 @@ header ul{
     display: flex;
     flex-flow: row wrap;
     padding:22px 0 0 0;
-    align-items: ;
 }
 header ul li{
   font-size:16px;
@@ -208,3 +207,4 @@ span{
   color:#fff;
   text-decoration:none;
 }
+

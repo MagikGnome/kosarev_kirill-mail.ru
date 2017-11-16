@@ -291,3 +291,41 @@ footer{
   color:#fff;
   text-decoration:none;
 }
+.modal_map{
+  opacity: 0;
+  display: none;
+}
+.map_open{
+  position: absolute;
+  top:572px;
+  left:50%;
+  display:flex;
+  margin:0 0 0 -390px;
+  opacity: 1;
+  -webkit-animation: go-bottom 1s  ;
+}
+.map_close{
+  display: none;
+}
+.cross:before{
+  content:"";
+  display: flex;
+  background-image:url(/img/cross.png);
+  background-repeat: no-repeat;
+  height:22px;
+  width:22px;
+  margin:9px 0 0 13px;
+}
+.map{
+  box-shadow:0px 30px 40px 10px rgba(0,0,0,0.3);
+}
+ @-webkit-keyframes go-bottom{
+   from{
+     opacity: 0;
+     top:0px;
+   }
+   to{
+     opacity: 1;
+     top:572px;
+   }
+ }
