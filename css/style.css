@@ -101,7 +101,7 @@ body{
 main{
   background-position-y: -35px;
   background-position-x: -330px;
-  background-image: url("/kosarev_kirill-mail.ru/img/Background.jpg");  
+  background-image: url("/img/Background.jpg");  
   background-repeat: no-repeat;
 }
 .container{
@@ -111,7 +111,7 @@ main{
   background-color: white;
   min-height: 420px; 
   width: 940px;
-  background-image: url("/kosarev_kirill-mail.ru/img/background_shop.png");
+  background-image: url("/img/background_shop.png");
 }
 .toggle{
   font-family: 'PT Sans Narrow',Arial,Tahoma,sans-serif;
@@ -310,7 +310,7 @@ footer{
 .cross:before{
   content:"";
   display: flex;
-  background-image:url("/kosarev_kirill-mail.ru/img/cross.png");
+  background-image:url("/img/cross.png");
   background-repeat: no-repeat;
   height:22px;
   width:22px;
