@@ -274,10 +274,10 @@ footer{
     left:0;
     width:20px;
     height:20px;
-    background-image: url("/img/radio.png");
+    background-image: url("../img/radio.png");
     background-repeat: no-repeat;
   }
   .radio input:checked + label:before{ 
-    background-image: url("/img/radio_checked.png");
+    background-image: url("../img/radio_checked.png");
     background-repeat: no-repeat;
   }
