@@ -99,7 +99,7 @@ body{
 main{
   background-position-y: -35px;
   background-position-x: -330px;
-  background-image: url(/img/Background.jpg);  
+  background-image: url(../img/Background.jpg);  
   background-repeat: no-repeat;
 }
 .container{
@@ -109,7 +109,7 @@ main{
   background-color: white;
   min-height: 420px; 
   width: 940px;
-  background-image: url(/img/background_shop.png);
+  background-image: url(../img/background_shop.png);
 }
 .toggle{
   font-family: 'PT Sans Narrow',Arial,Tahoma,sans-serif;
@@ -305,10 +305,10 @@ footer{
 .map_close{
   display: none;
 }
-.cross:before{
+.cross_map:before{
   content:"";
   display: flex;
-  background-image:url(/img/cross.png);
+  background-image:url(../img/cross.png);
   background-repeat: no-repeat;
   height:22px;
   width:22px;
@@ -327,3 +327,9 @@ footer{
      top:572px;
    }
  }
+.modal_login{
+  opacity:0;
+  display: none;
+  width:460px;
+  height:385px;
+}
