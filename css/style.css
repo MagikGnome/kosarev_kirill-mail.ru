@@ -91,8 +91,6 @@ body{
 .feature:nth-child(2) p{
   padding:0 10px 0 10px;
 }
-.feature:nth-child(3) p{
-}
 .clearfix:after{
   content:"";
   display:table;
@@ -101,7 +99,7 @@ body{
 main{
   background-position-y: -35px;
   background-position-x: -330px;
-  background-image: url(img/Background.jpg);  
+  background-image: url(/img/Background.jpg);  
   background-repeat: no-repeat;
 }
 .container{

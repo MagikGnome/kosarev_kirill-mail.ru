@@ -2,40 +2,42 @@
     padding:0;
     margin:0; 
 }
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 li{
     list-style-type: none;
 }
 header ul{
-    font-size:0;
-    text-align:center;
     justify-content: center;
     display: flex;
-    flex-flow: row wrap;
-    padding:22px 0 0 0;
+    flex-flow: row nowrap;
+    align-items: center;
 }
 header ul li{
   font-size:16px;
-  padding:0px 0px 19px 0;
-  margin:0 20px 0 0;
-  border-bottom: 3px solid black;
-}
-header ul li:hover{
-  border-bottom-color: white;
+  margin:0 40px 0 0;
 }
 header li a{
   text-decoration:none;
   color: #fff;
 }
+header nav{
+  margin:0 0 0 40px;
+}
 ul li.login{
     display:flex;
-    margin-left:290px;
+    margin-left:140px;
     text-align:right;
 }
 .img_login{
   padding:0 15px 0 0;
 }
 header{
-  width:100%;
+    width: 100%;
   min-height: 72px;
   background-color: black;
 }
@@ -68,7 +70,7 @@ main{
   padding: 0 0 46px 0;
   display: flex;
   justify-content: center;
-  background-image: url(/kosarev_kirill-mail.ru/img/background_shop.png);
+  background-image: url(/img/background_shop.png);
 }
 .crumbs .back:after{
     content:"";
@@ -168,7 +170,7 @@ span{
   display:flex;
   justify-content: center;
   min-height:189px;
-  background-image: url("/kosarev_kirill-mail.ru/img/footer_shop.png");
+  background-image: url("/img/footer_shop.png");
 }
 .footer{
   font-size:14px;
@@ -179,7 +181,7 @@ span{
 }
 .contacts{
   line-height: 24px;
-  margin:0px 110px 0 135px;
+  margin:0px 110px 0 5px;
 }
 .contacts a{
   color:white;
