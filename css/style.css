@@ -23,7 +23,7 @@ li a:active{
 nav{
   padding-top:14px;
 }
-ul li.login{
+ul li.entrance{
   margin-left:290px;
   text-align:right;
 }
@@ -218,7 +218,7 @@ button{
   font-weight: bold;
   border: none ;
   color:#fff;
-  margin:-12px 0 0 -2px;
+  margin:-12px 0 0 0;
 }
 .info{
   font-size:14px;
@@ -290,7 +290,6 @@ footer{
   text-decoration:none;
 }
 .modal_map{
-  opacity: 0;
   display: none;
 }
 .map_open{
@@ -324,12 +323,81 @@ footer{
    }
    to{
      opacity: 1;
-     top:572px;
+     top:578px;
    }
  }
 .modal_login{
-  opacity:0;
   display: none;
   width:460px;
   height:385px;
+  background-image: url(../img/background_shop.png);
+}
+.login_open{
+  position: absolute;
+  top:120px;
+  left:50%;
+  display:flex;
+  margin:0 0 0 -230px;
+  opacity:1;
+  -webkit-animation:login 1s;
+}
+.pers_acc{
+  margin:56px 80px 58px 80px;
+  color:black;
+}
+.pers_acc form{
+  display: flex;
+  flex-direction: column;
+}
+.login{
+  width: 280px;
+  height: 43px;
+  margin:10px 0 9px 0;
+  border:2px solid black;
+  padding:0 0 0 20px ;
+}
+.password{
+  width: 280px;
+  height: 43px;
+  margin:0 0 10px 0;
+  padding: 0 0 0 20px;
+  border:2px solid black;
+}
+.checkbox{
+  display: none;
+}
+.checkbox + label{
+padding-left:30px;
+position: relative ;
+}
+.checkbox + label:before{
+content:"";
+position: absolute;
+left:0;
+width:20px;
+height:20px;
+background-image: url("../img/checkbox.png");
+background-repeat: no-repeat;
+}
+input.checkbox:checked + label:before{ 
+background-image: url("../img/checkbox_checked.png");
+background-repeat: no-repeat;
+}
+.forget{
+  color:black;
+}
+.pers_acc div{
+  display: flex;
+  justify-content: space-between;
+  margin:10px 0 20px 0;
+}
+@-webkit-keyframes login{
+  from{
+    opacity: 0;
+    top:0px;
+  }
+  to{
+    opacity: 1;
+    top:120px;
+  }
 }

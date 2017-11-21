@@ -79,7 +79,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-image: url(img/background_shop.png);
+    background-image: url(../img/background_shop.png);
 }
 .item{
     width:220px;
@@ -183,7 +183,7 @@ footer{
     display:flex;
     justify-content: center;
     min-height:189px;
-    background-image: url("img/footer_shop.png");
+    background-image: url("../img/footer_shop.png");
   }
   .footer{
     font-size:14px;
