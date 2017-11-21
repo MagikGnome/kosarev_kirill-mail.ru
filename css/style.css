@@ -401,3 +401,15 @@ background-repeat: no-repeat;
     top:120px;
   }
 }
+.login_close{
+  display: none;
+}
+.cross_login:before{
+  content:"";
+  display: flex;
+  background-image:url("../img/cross.png");
+  background-repeat: no-repeat;
+  height:22px;
+  width:22px;
+  margin:9px 0 0 13px;
+}
