@@ -15,11 +15,11 @@
                 <li><a href="#">Информация</a></li>
                 <li><a href="#">Новости</a></li>
                 <li><a href="#">Прайс-лист</a></li>
-                <li><a href="/shop.html">Магазин</a></li>
+                <li><a href="shop.html">Магазин</a></li>
                 <li><a href="#">Контакты</a></li>
-                <li class="login">
+                <li class="entrance">
                     <div class="img_login">
-                    <img src="/img/login.png">   
+                    <img src="img/login.png">   
                     </div>                 
                     <a href="#" >Вход</a>
                 </li>
@@ -29,7 +29,7 @@
 <div class="wrapper">   
     <main> 
     <div class="logo">
-            <figure class="logo_img"><img src="/img/index-logo.png"></figure>
+            <figure class="logo_img"><img src="img/index-logo.png"></figure>
     </div>
     <div class="features  clearfix">
         <div class="feature">
@@ -129,9 +129,28 @@
         </div>
     </main>
     <div class="modal_map">
-            <iframe  class="map" id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6029912317824!2d30.32325496033404!3d59.938729689727985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1510760635174" width="766" height="560" frameborder="0" style="border:7px solid white" allowfullscreen></iframe>
+            <iframe  class="map"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6029912317824!2d30.32325496033404!3d59.938729689727985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1510760635174" width="766" height="560" frameborder="0" style="border:7px solid white" allowfullscreen></iframe>
         <input type="button" class="map_close" id="map">
-        <label for="map" class="cross"></label>
+        <label for="map" class="cross_map"></label>
+    </div>
+    <div class="modal_login">
+        <div class="pers_acc">
+            <h3>Личный кабинет</h3>
+            <span>Укажите пожалуйста свой логин и пароль</span>
+            <form>
+                <input class="login" type="text" name="login" id="login" placeholder="Логин">
+                <input class="password" type="password" name="password" id="login" placeholder="Пароль">
+                <div>
+                    <input type="checkbox" checked name="" id="remember" class="checkbox">
+                    <label for="remember" class="remember">Запомни меня</label>
+                    <a href="#" class="forget">Я забыл пароль!</a>
+                </div>
+                <label for="login"></label>
+            </form>
+            <button class="enter">Войти</button>
+        </div>
+        <input type="button" class="login_close" id="login">
+        <label for="login" class="cross_login"></label>
     </div>
 </div>
     <footer>
@@ -155,7 +174,7 @@
         </div>
         </div>
     </footer>
-    <script src="/js/js_index.js">
+    <script src="js/js_index.js">
     </script>
 </body>
 </html>

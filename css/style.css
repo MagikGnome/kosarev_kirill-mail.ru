@@ -23,8 +23,9 @@ li a:active{
 nav{
   padding-top:14px;
 }
-ul li.login{
+ul li.entrance{
   margin-left:290px;
+  text-align:right;
 }
 .img_login{
   display:inline-block;
@@ -90,8 +91,6 @@ body{
 .feature:nth-child(2) p{
   padding:0 10px 0 10px;
 }
-.feature:nth-child(3) p{
-}
 .clearfix:after{
   content:"";
   display:table;
@@ -100,7 +99,7 @@ body{
 main{
   background-position-y: -35px;
   background-position-x: -330px;
-  background-image: url(/img/Background.jpg);  
+  background-image: url(../img/Background.jpg);  
   background-repeat: no-repeat;
 }
 .container{
@@ -110,7 +109,7 @@ main{
   background-color: white;
   min-height: 420px; 
   width: 940px;
-  background-image: url("/img/background_shop.png");
+  background-image: url("../img/background_shop.png");
 }
 .toggle{
   font-family: 'PT Sans Narrow',Arial,Tahoma,sans-serif;
@@ -219,7 +218,7 @@ button{
   font-weight: bold;
   border: none ;
   color:#fff;
-  margin:-12px 0 0 -2px;
+  margin:-12px 0 0 0;
 }
 .info{
   font-size:14px;
@@ -291,7 +290,6 @@ footer{
   text-decoration:none;
 }
 .modal_map{
-  opacity: 0;
   display: none;
 }
 .map_open{
@@ -306,10 +304,10 @@ footer{
 .map_close{
   display: none;
 }
-.cross:before{
+.cross_map:before{
   content:"";
   display: flex;
-  background-image:url(/img/cross.png);
+  background-image:url("../img/cross.png");
   background-repeat: no-repeat;
   height:22px;
   width:22px;
@@ -325,6 +323,93 @@ footer{
    }
    to{
      opacity: 1;
-     top:572px;
+     top:578px;
    }
  }
+.modal_login{
+  display: none;
+  width:460px;
+  height:385px;
+  background-image: url(../img/background_shop.png);
+}
+.login_open{
+  position: absolute;
+  top:120px;
+  left:50%;
+  display:flex;
+  margin:0 0 0 -230px;
+  opacity:1;
+  -webkit-animation:login 1s;
+}
+.pers_acc{
+  margin:56px 80px 58px 80px;
+  color:black;
+}
+.pers_acc form{
+  display: flex;
+  flex-direction: column;
+}
+.login{
+  width: 280px;
+  height: 43px;
+  margin:10px 0 9px 0;
+  border:2px solid black;
+  padding:0 0 0 20px ;
+}
+.password{
+  width: 280px;
+  height: 43px;
+  margin:0 0 10px 0;
+  padding: 0 0 0 20px;
+  border:2px solid black;
+}
+.checkbox{
+  display: none;
+}
+.checkbox + label{
+padding-left:30px;
+position: relative ;
+}
+.checkbox + label:before{
+content:"";
+position: absolute;
+left:0;
+width:20px;
+height:20px;
+background-image: url("../img/checkbox.png");
+background-repeat: no-repeat;
+}
+input.checkbox:checked + label:before{ 
+background-image: url("../img/checkbox_checked.png");
+background-repeat: no-repeat;
+}
+.forget{
+  color:black;
+}
+.pers_acc div{
+  display: flex;
+  justify-content: space-between;
+  margin:10px 0 20px 0;
+}
+@-webkit-keyframes login{
+  from{
+    opacity: 0;
+    top:0px;
+  }
+  to{
+    opacity: 1;
+    top:120px;
+  }
+}
+.login_close{
+  display: none;
+}
+.cross_login:before{
+  content:"";
+  display: flex;
+  background-image:url("../img/cross.png");
+  background-repeat: no-repeat;
+  height:22px;
+  width:22px;
+  margin:9px 0 0 13px;
+}
